@@ -39,12 +39,14 @@ Proxy for early institutional positioning.
 Strong trend with moderate flow expansion.
 Often reinforced by systematic strategies.
 
+*Late Crowded*
+High volume + volatility expansion + overheat signals.
+Higher fragility and reversal risk.
+
+
 <img width="1707" height="884" alt="Screenshot 2026-02-20 at 19 19 48" src="https://github.com/user-attachments/assets/41fe6dce-0d50-49a1-b097-544ae37caa4c" />
 
 
 
 
-*Late Crowded*
-High volume + volatility expansion + overheat signals.
-Higher fragility and reversal risk.
 
