@@ -1,0 +1,51 @@
+the purpose of this project
+
+Every day, you reflect on the market, you want to know the flow of the market
+
+crowding proxies
+z scores
+
+ATR scores:
+
+
+  # Phase score (weighted sum)
+    # 解释：
+    # - vol_z / atr_z: 拥挤 & 波动扩张
+    # - sharpe_z: 趋势持续性
+    # - accel_z: 抛物线/加速（晚期特征）
+    # - rsi_overheat_z: 过热（晚期特征）
+
+
+    Quiet Accumulation（最像 HF 早期“安静建仓”）
+
+典型同时满足：
+
+smart_money_score > 0.65
+
+vol_z < 0.8（量没爆）
+
+atr_z < 0.8（波动没爆）
+
+roll_sharpe > 0.5（趋势干净）
+
+mdd > -0.12（回撤浅）
+
+rsi < 72（不过热）
+
+这就是你想找的 early footprint。
+
+Systematic Trend
+
+趋势强（roll_sharpe > 1）
+
+量和波动中等偏上（系统资金强化）
+
+但还没进入爆炸式 crowd
+
+Late Crowded
+
+vol_z > 1 且 atr_z > 1
+
++（rsi>70 或 accel_z>1）
+
+这种往往更像“后期放大”，风险更高。

@@ -1,0 +1,23 @@
+MEGA_CAP = [
+    "NVDA","AAPL","MSFT","AMZN","META","GOOGL","TSLA"
+]
+
+SEMIS = [
+    "NVDA","AMD","AVGO","ASML","MU","TSM","INTC"
+]
+
+BANKS = [
+    "JPM","GS","MS","BAC"
+]
+
+ENERGY = [
+    "XOM","CVX","COP"
+]
+
+TELECOMMUNICATION = [
+    "LITE"
+]
+
+COMMODITY = ["GC=F"]
+
+WATCHLIST = list(set(MEGA_CAP + SEMIS + BANKS + ENERGY + TELECOMMUNICATION+COMMODITY))
