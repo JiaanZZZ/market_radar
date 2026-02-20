@@ -18,28 +18,28 @@ A discretionary-PM style market monitoring dashboard built with Python + Streaml
 
 Signals are derived from normalized market proxies:
 
-Volume Z-Score (vol_z) → participation / crowding
+  1. Volume Z-Score (vol_z) → participation / crowding
 
-ATR Z-Score (atr_z) → volatility expansion
-
-Rolling Sharpe → trend persistence
-
-Acceleration (accel_z) → parabolic behavior
-
-RSI → momentum overheating
+  2. ATR Z-Score (atr_z) → volatility expansion
+  
+  3. Rolling Sharpe → trend persistence
+  
+  4. Acceleration (accel_z) → parabolic behavior
+  
+  5. RSI → momentum overheating
 
 
 **Phase Classification**
 
-Quiet Accumulation
+*Quiet Accumulation*
 Low volume + contained volatility + clean trend.
 Proxy for early institutional positioning.
 
-Systematic Trend
+*Systematic Trend*
 Strong trend with moderate flow expansion.
 Often reinforced by systematic strategies.
 
-Late Crowded
+*Late Crowded*
 High volume + volatility expansion + overheat signals.
 Higher fragility and reversal risk.
 
